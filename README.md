@@ -28,7 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ---
 
 * Open with VSCode
-* Click [here](https://ddouglas86.github.io/bootcamp-challenge-1/) to view the live webpage
+* Click [here](https://ddouglas86.github.io/my-portfolio/) to view the live webpage
 ---
 ## Webpage screenshot
-![Image](/assets/images/Horiseon-What-We-Do.png)
+![Image](/assets/images/Davey-s-Portfolio.png)
