@@ -57,7 +57,6 @@ li a {
     justify-content: space-around;
     align-items: center;
     border-style: solid;
-
 }
 
 
@@ -67,6 +66,8 @@ li a {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .projects {
@@ -120,3 +121,8 @@ footer {
     background-color: rgb(4, 63, 45);
     color: antiquewhite;
 }
+
+#icons {
+    justify-content: space-between;
+    align-items: center;
+  }
