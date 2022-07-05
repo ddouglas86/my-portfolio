@@ -123,6 +123,11 @@ footer {
 }
 
 #icons {
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+#icons img {
+   flex-wrap: wrap;
+}
