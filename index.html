@@ -6,37 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Davey's Portfolio</title>
 </head>
 
-<body>
-    <header class="banner">
-        <h1>My Portfolio</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#contact">Contact</a>
-            <a href="#resume">Resume</a>
-            <a href="#samples">Work Samples</a>
-        </nav>
-    </header>
-    <main>
-       <div>
-        <h2>About Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ipsum bibendum, pulvinar nunc non, pharetra ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum tincidunt erat massa, vitae vehicula tortor accumsan ut. 
-        </p>
-        </div>
-        <div>
-            <img src="IMG_3642.JPG" alt="filler">
-            <img src="IMG_3642.JPG" alt="filler">
-            <img src="IMG_3642.JPG" alt="filler">
-            <img src="IMG_3642.JPG" alt="filler">
-        </div>
-    </main>
-    <section>
+<!--Header-->
 
-    </section>
+<body>
     
+    <!--Navigation-->
+    <nav>
+        <div class="links">
+            <ul>
+                <li id="name">Davey Douglas</li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Body-->
+    <main>
+        <section class="me">
+            <h2 id="#about-me">About Me</h2>
+            <div id="photo">
+                <img src="./images/portrait.png" alt="Portrait of Davey">
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ipsum bibendum, pulvinar
+                nunc non, pharetra ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum
+                tincidunt erat massa, vitae vehicula tortor accumsan ut.
+            </p>
+
+        </section>
+
+        <section class="flex-container-2" id="projects">
+            <div class="projects">
+                <h2>Work</h2>
+                <div class="item-1">
+                    <a href="https://ddouglas86.github.io/bootcamp-challenge-1/"><img
+                            src="./images/Horiseon-What-We-Do.png"></a>
+                </div>
+                <div class="break"></div>
+                <div class="item">
+                    <img src="./images/pexels-anna-shvets-4482896.jpg">
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-antonio-batinić-4164418.jpg">
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-marcin-dampc-1684187.jpg">
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-pixabay-39284.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="me">
+       <h2>Contact Me</h2>
+    </div>
+
+    </footer>
+
 </body>
 
 </html>
