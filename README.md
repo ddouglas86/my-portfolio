@@ -31,4 +31,3 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * Click [here](https://ddouglas86.github.io/my-portfolio/) to view the live webpage
 ---
 ## Webpage screenshot
-![Image](/assets/images/Davey-s-Portfolio.png)
